@@ -1,0 +1,27 @@
+.process-box {
+  margin-top: 10rem;
+  // .process-box__item
+
+  &__item {
+    width: 35rem;
+    margin: 1rem;
+    padding: 3.5rem 1.5rem;
+    transition: all 0.3s linear;
+
+    &:hover {
+      background-color: rgba($color-dark-blue, 0.8);
+      transform: translateY(-4px);
+    }
+
+    &>i {
+      display: block;
+      color: $color-white;
+      font-size: 6rem;
+      margin-bottom: 1rem;
+    }
+
+    &:hover>i {
+      color: $color-white;
+    }
+  }
+}

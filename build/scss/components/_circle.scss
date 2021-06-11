@@ -1,0 +1,16 @@
+.circle {
+  display: inline-block;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+  position: relative;
+  margin-bottom: 1rem;
+
+  & i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

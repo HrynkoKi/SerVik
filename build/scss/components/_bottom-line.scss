@@ -1,0 +1,11 @@
+.bottom-line {
+  border-bottom: 3px solid $color-primary;
+  width: 40rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  &--white {
+    border-color: $color-white;
+  }
+}

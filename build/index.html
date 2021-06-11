@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="#" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/main.min.css" />
+  <title>SV Design</title>
+</head>
+
+<body>
+
+  @@include("./pages/_navigation.html")
+
+  <header class="header-main">
+    <div class="header-main__nav-box nav-box">
+      <a href="index.html" class="nav-box__logo"><img src="img/logo.svg" alt="Логотип сайта"></a>
+    </div>
+
+    <div class="header-main__text-box u-center-text">
+      <h1 class="header-main__heading heading-primary u-margin-bottom-medium">
+        <span class="heading-primary--main">SV Design</span>
+        <span class="heading-primary--sub">Далеко-далеко, за словесными</span>
+      </h1>
+
+      <a href="#" class="header-main__btn btn btn-orange u-btn-reset">Заказать</a>
+    </div>
+  </header>
+
+  <main class="main">
+    @@include("./pages/_services.html")
+
+    @@include("./pages/_process.html")
+
+    @@include("./pages/_price.html")
+
+    @@include("./pages/_contact.html")
+  </main>
+
+  <footer class="footer">
+    <div class="footer__logo-box u-margin-bottom-big">
+      <img src="img/logo.svg" alt="Логотип сайта" class="footer__logo">
+    </div>
+
+    <div class="row">
+      <div class="col-1-of-2">
+        <div class="footer__nav">
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link">Главная</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Процесс работы</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Цены</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-1-of-2">
+        <p class="footer__copyright">
+          Далеко-далеко, за словесными горами в стране гласных и согласных живут рыбные тексты. До предупреждал инициал
+          дал послушавшись текстами от всех повстречался языком пустился над единственное составитель переписали, имени
+          маленький букв маленькая по всей она.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
